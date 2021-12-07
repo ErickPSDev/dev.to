@@ -1,3 +1,29 @@
+.he-btn-log {
+  border: none;
+  height: 40px;
+  width: 65px;
+  color: #3b49df;
+  background: none;
+}
+
+.he-btn-account {
+  border: none;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+  width: 130px;
+  background: #3b49df;
+}
+
+.he-btn-account:hover {
+  background: #323ebe;
+}
+
+.he-btn-log:hover {
+  background: #e7e7e7;
+  border-radius: 5px;
+}
+
 .he-container-sec {
   height: 100vh;
   width: 100vw;
@@ -39,7 +65,9 @@
   margin-top: 10px;
   background: white;
   width: auto;
-  height: 56vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   border-radius: 5px;
   border: 0.1px solid #b4b4b4;
 }
@@ -80,8 +108,13 @@
 
 .he-container-sec .he-card .he-div-head .he-info-card .he-name-profile {
   text-decoration: none;
+  cursor: pointer;
   color: slategray;
   font-weight: 600;
+}
+
+.he-container-sec .he-card .he-div-head .he-info-card .he-name-profile:hover {
+  color: black;
 }
 
 .he-container-sec .he-card .he-div-head .he-info-card span {
