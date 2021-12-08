@@ -26,9 +26,8 @@
 
 .he-container-sec {
   height: 100vh;
-  width: 100vw;
-  max-width: 650px;
-  min-width: 430px;
+  max-width: 850px;
+  min-width: 300px;
 }
 
 .he-container-sec nav {
@@ -143,7 +142,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   height: 40px;
+  margin-bottom: 15px;
 }
 
 .he-container-sec .he-card .he-container-card .he-tags a {
@@ -235,6 +237,12 @@
 }
 
 @media (max-width: 768px) {
+  .he-btn-log {
+    width: 100%;
+  }
+  .he-btn-account {
+    width: 100%;
+  }
   .he-container-sec {
     margin: 10px;
   }
@@ -246,6 +254,12 @@
   }
   .he-container-sec .he-card .he-container-card .he-footer-card .he-fot-card-left a span {
     display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .he-container-sec {
+    max-width: 600px;
   }
 }
 /*# sourceMappingURL=he-style.css.map */

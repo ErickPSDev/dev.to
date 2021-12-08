@@ -25,9 +25,9 @@
 
 .he-container-sec {
     height: 100vh;
-    width: 100vw;
-    max-width: 650px;
-    min-width: 430px;
+    
+    max-width: 850px;
+    min-width: 300px;
   
     nav {
       height: 43px;
@@ -110,8 +110,9 @@
         .he-tags {
           display: flex;
           align-items: center;
+          flex-wrap: wrap;
           height: 40px;
-  
+          margin-bottom: 15px;
           a {
             display: flex;
   
@@ -181,6 +182,15 @@
 
   @media (max-width: 768px) {
 
+    .he-btn-#{log} {
+      
+      width: 100%;
+      
+    }
+    .he-btn-#{account} {
+      width: 100%;
+      
+    }
     .he-container-sec {
         margin: 10px;
       }
@@ -203,6 +213,9 @@
       }
     }
 
-
+    @media (min-width: 1024px) {
+      .he-container-sec{
+        max-width: 600px;
+      }
   
-
+    }
