@@ -120,16 +120,26 @@
 
 .vc-aside-right .vc-stories {
   background-color: #F9F9F9;
-  height: 50px;
-  width: 211px;
-  min-width: 210px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 221px;
+  min-width: 220px;
   margin: 5px;
   border: 0.1px solid #e7e7e7;
   padding: 15px;
 }
 
+.vc-aside-right .vc-stories .vc-stories2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-top: solid;
+}
+
 .vc-aside-right .vc-stories a {
   color: #212529 !important;
+  text-decoration: none;
 }
 
 .vc-aside-right .vc-btn-posts {
