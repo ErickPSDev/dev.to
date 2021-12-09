@@ -6,25 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Etiqueta Responsiva-->
     <title>Challenge 2 - dev.to</title>
-    <link rel="stylesheet" href="./css/he-style.css" />
+    <link rel="stylesheet" href="./css/he-style.css" /> <!--Estilos Hector-->
     <!--Falta agregar estilos y fuentes, ideas?-->
-    <link rel="stylesheet" href="./scss/custom.css">
-    <!--Importa Bootstrap-->
+    <link rel="stylesheet" href="./scss/custom.css">  <!--Importa Bootstrap-->
+    <link rel="stylesheet" href="./css/styles.css"> <!--Estilos Erick-->
+
   </head>
 
   <body>
-    <header>
-      <!--Header - ERICK-->
-      <section>
-        <div id="headerLeft">
-          <button id="menu"><p></p></button>
+    <header class="">    <!--Header - ERICK-->
+   
+      <section class="headerContainer row">
+        <div class="headerLeft col-6 row">
+          
+          <button class="menu bg-transparent border-0 col-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list  mh-75" viewBox="0 0 16 16">
+              <path fill-rule ="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </button> <!--invoca a left aside VICTOR-->
 
-          <button id="devIcon"><p></p></button>
+          <div class="col-3">
+            <img src="./images/devlogo-pwa-512.png" alt="Dev icon" class="rounded-2">
+          </div>
+
+          <div class="d-none d-lg-block col-3">
+            <input type="text" class=" input">
+          </div>
+          
         </div>
 
-        <div id="headerRigth">
-          <button id="searchButton"><img src="" alt="" /></button>
-          <button id="createAccount"></button>
+        <div class="headerRigth col-6">
+          <button class="searchButton bg-transparent border-0 col-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </button>
+
+          <button type="button" class="createAccount btn btn-primary col-6"> Create account</button>
         </div>
       </section>
     </header>
