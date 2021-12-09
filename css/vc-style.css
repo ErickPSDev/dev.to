@@ -1,0 +1,170 @@
+.vc-aside-left {
+  height: 100vh;
+  width: 221px;
+  min-width: 220px;
+}
+
+.vc-aside-left .vc-dev-com {
+  background-color: #F9F9F9;
+  height: 350px;
+  border-radius: 5px;
+  margin: 5px;
+  border: 0.1px solid #e7e7e7;
+  padding: 15px;
+}
+
+.vc-aside-left .vc-dev-com h5 {
+  line-height: 30px;
+  font-size: 19px;
+}
+
+.vc-aside-left .vc-dev-com a {
+  font-size: 18px;
+  color: #3b49df;
+  text-decoration: none;
+}
+
+.vc-aside-left .vc-dev-com p {
+  color: #424040;
+}
+
+.vc-aside-left .vc-dev-com .vc-aside-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.vc-aside-left .vc-dev-com .vc-aside-btn .btn-account {
+  width: 100%;
+}
+
+.vc-aside-left .vc-list-a {
+  margin: 5px;
+  padding: 15px;
+}
+
+.vc-aside-left .vc-list-a div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+}
+
+.vc-aside-left .vc-list-a div span {
+  display: block;
+  width: 40px;
+}
+
+.vc-aside-left .vc-list-a div a {
+  text-decoration: none;
+  color: black;
+}
+
+.vc-btn-log {
+  border: none;
+  height: 40px;
+  width: 65px;
+  color: #3b49df;
+  background: none;
+}
+
+.vc-btn-account {
+  border: none;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+  width: 130px;
+  background: #3b49df;
+}
+
+.vc-btn-account:hover {
+  background: #323ebe;
+}
+
+.vc-btn-log:hover {
+  background: #e7e7e7;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .vc-btn-log {
+    width: 100%;
+  }
+  .vc-btn-account {
+    width: 100%;
+  }
+}
+
+.vc-aside-right {
+  height: 100vh;
+  width: 221px;
+  min-width: 220px;
+}
+
+.vc-aside-right .vc-dev-is {
+  background-color: #F9F9F9;
+  height: 200px;
+  border-radius: 5px;
+  margin: 5px;
+  border: 0.1px solid #e7e7e7;
+  padding: 15px;
+}
+
+.vc-aside-right .vc-stories {
+  background-color: #F9F9F9;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 221px;
+  min-width: 220px;
+  margin: 5px;
+  border: 0.1px solid #e7e7e7;
+  padding: 15px;
+}
+
+.vc-aside-right .vc-stories .vc-stories2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-top: solid;
+}
+
+.vc-aside-right .vc-stories a {
+  color: #212529 !important;
+  text-decoration: none;
+}
+
+.vc-aside-right .vc-btn-posts {
+  border: none;
+  height: 40px;
+  width: 65px;
+  color: #3b49df;
+  background: none;
+}
+
+.vc-aside-right .vc-btn-submit {
+  border: none;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+  width: 130px;
+  background: #3b49df;
+}
+
+.vc-aside-right .vc-btn-account:hover {
+  background: #323ebe;
+}
+
+.vc-aside-right .vc-btn-posts:hover {
+  background: #e7e7e7;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=vc-style.css.map */

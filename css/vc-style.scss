@@ -1,0 +1,141 @@
+                .vc-aside-#{left} {
+                    height: 100vh;
+                    width: 221px;
+                    min-width: 220px;
+                    .vc-dev-com {
+                        background-color: #F9F9F9;
+                        height: 350px;
+                        border-radius: 5px;
+                        margin: 5px;
+                        border: 0.1px solid rgb(231, 231, 231);
+                        padding: 15px;
+                        h5 {
+                            line-height: 30px;
+                            font-size: 19px;
+                        }
+                        a {
+                            font-size: 18px;
+                            color: #3b49df;
+                            text-decoration: none;
+                        }
+                        p {
+                            color: rgb(66, 64, 64);
+                        }
+                        .vc-aside-btn {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            gap: 5px;
+                            .btn-#{account} {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .vc-list-a {
+                        margin: 5px;
+                        padding: 15px;
+                        div {
+                            display: flex;
+                            height: 40px;
+                            span {
+                                display: block;
+                                width: 40px;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                
+                .vc-btn-#{log} {
+                    border: none;
+                    height: 40px;
+                    width: 65px;
+                    color: #3b49df;
+                    background: none;
+                }
+                
+                .vc-btn-#{account} {
+                    border: none;
+                    color: white;
+                    height: 40px;
+                    border-radius: 5px;
+                    width: 130px;
+                    background: #3b49df;
+                }
+                
+                .vc-btn-#{account}:hover {
+                    background: #323ebe;
+                }
+                
+                .vc-btn-#{log}:hover {
+                    background: rgb(231, 231, 231);
+                    border-radius: 5px;
+                }
+                
+                @media (min-width: 768px) {
+                    .vc-btn-#{log} {
+                        width: 100%;
+                    }
+                    .vc-btn-#{account} {
+                        width: 100%;
+                    }
+                }
+                
+                .vc-aside-#{right} {
+                    height: 100vh;
+                    width: 221px;
+                    min-width: 220px;
+                    .vc-dev-is {
+                        background-color: #F9F9F9;
+                        height: 200px;
+                        border-radius: 5px;
+                        margin: 5px;
+                        border: 0.1px solid rgb(231, 231, 231);
+                        padding: 15px;
+                    }
+                    .vc-img {}
+                    .vc-stories {
+                        background-color: #F9F9F9;
+                        height: fit-content;
+                        width: 221px;
+                        min-width: 220px;
+                        margin: 5px;
+                        border: 0.1px solid rgb(231, 231, 231);
+                        padding: 15px;
+                        .vc-stories2 {
+                            height: fit-content;
+                            border-top: solid;
+                        }
+                        a {
+                            color: #212529 !important;
+                            text-decoration: none;
+                        }
+                    }
+                    .vc-btn-#{posts} {
+                        border: none;
+                        height: 40px;
+                        width: 65px;
+                        color: #3b49df;
+                        background: none;
+                    }
+                    .vc-btn-#{submit} {
+                        border: none;
+                        color: white;
+                        height: 40px;
+                        border-radius: 5px;
+                        width: 130px;
+                        background: #3b49df;
+                    }
+                    .vc-btn-#{account}:hover {
+                        background: #323ebe;
+                    }
+                    .vc-btn-#{posts}:hover {
+                        background: rgb(231, 231, 231);
+                        border-radius: 5px;
+                    }
+                }
+                
+                @media (min-width: 1024px) {}
