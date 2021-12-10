@@ -1,12 +1,326 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roadmap for React JS 2022-DEV Community</title>
+    <link rel="shortcut icon" href="../images/devlogo-pwa-512.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/he-style.css" />
+    <link rel="stylesheet" href="./scss/custom.css" />
 </head>
+
 <body>
-    
+    <!-- Header -->
+    <header style="z-index: 1;" class="
+        he-header
+        d-flex
+        justify-content-center
+        align-items-center
+        border-bottom
+        
+      ">
+        <section class="d-flex justify-content-between he-sec-header ">
+            <div class="he-div-left d-flex align-items-center">
+                <button class="he-hamburger d-inline d-md-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
+                        aria-labelledby="a82uz5w7pdpk961uizzolzxq26zpvbwo" class="crayons-icon">
+                        <title id="a82uz5w7pdpk961uizzolzxq26zpvbwo">
+                            Navigation menu
+                        </title>
+                        <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"></path>
+                    </svg>
+                </button>
+                <img class="p-1" style="height: 50px; width: 55px; border-radius: 6px"
+                    src="../images/devlogo-pwa-512.png" alt="Dev" />
+                <div class="he-div-input d-flex align-items-center position-relative">
+                    <input class="he-input d-md-inline d-none" type="search" name="search" placeholder="Search..." />
+                    <button class="border-0 position-absolute end-0 me-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="crayons-icon">
+                            <path
+                                d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="he-header-right d-flex align-items-center">
+                <button class="he-btn-white me-3 d-md-inline d-none">Log in</button>
+                <button class="he-btn-violet me-3">Create account</button>
+            </div>
+        </section>
+    </header>
+
+    <section class="he-container-prin d-flex flex-column-reverse flex-md-row justify-content-md-center">
+        <!-- aside left -->
+        <aside class="he-aside-left m-md-3 me-md-4 ">
+
+
+            <section class="he-container-btn ">
+                <div class="d-flex flex-md-column align-items-center mt-md-4 he-btn1">
+                    <span class="he-hobtn d-flex justify-content-center align-items-center"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            aria-hidden="true" class="crayons-icon">
+                            <path
+                                d="M21.179 12.794l.013.014L12 22l-9.192-9.192.013-.014A6.5 6.5 0 0112 3.64a6.5 6.5 0 019.179 9.154zM4.575 5.383a4.5 4.5 0 000 6.364L12 19.172l7.425-7.425a4.5 4.5 0 10-6.364-6.364L8.818 9.626 7.404 8.21l3.162-3.162a4.5 4.5 0 00-5.99.334l-.001.001z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="mt-1">154</span>
+                </div>
+                <div class="d-flex flex-md-column align-items-center mt-lg-4 he-btn2 mt-md-3">
+                    <span class="he-hobtn d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"
+                            class="crayons-icon">
+                            <path
+                                d="M5.645 8.013c.013-.265-.261-.323-.4-.183-1.16 1.17-1.822 3.865-.344 7.32.294.961 1.938 3.19.84 6.131l-.003.006c-.094.255.206.404.366.263 1.395-1.226 1.933-3.593 1.1-6.375-.488-1.657-1.955-4.226-1.559-7.162zm-3.22 2.738c.05-.137-.124-.417-.326-.225-.939.893-1.316 2.863-.976 4.605.547 2.878 2.374 3.526 2.066 6.629-.028.102.176.38.348.154 1.546-2.033.409-4.453-.241-6.006-1.005-2.386-1.087-4.118-.871-5.157z">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.622 7.223l8.579-3.68c.598-.256 1.087.547.6.985l-6.618 5.941c.881 2.043 2.738 6.34 2.931 6.775 1.348 3.031-2.055 4.918-3.807 3.583a7.027 7.027 0 01-.623-.574c-.974-.965-2.419-2.398-5.207-1.877.284-2.115-.313-3.737-.883-5.288-.38-1.032-.747-2.032-.837-3.124-.346-3.329 3.763-8.23 4.696-7.953.386.115.326 1.229.266 2.319-.051.948-.102 1.88.143 2.12.145.142.428.43.76.773zM11.5 16.5l2.5.5 2.5 2 1-.5-2-4.5-1.5-4-1.5-1-1-1-1-1.5L10 8l-.5 1.5 1 2.5 1 4.5z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="mt-1">41</span>
+                </div>
+                <div class="d-flex flex-md-column align-items-center mt-md-3 he-btn3">
+                    <span class="he-hobtn d-flex justify-content-center align-items-center"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            aria-hidden="true" class="crayons-icon">
+                            <path
+                                d="M5 2h14a1 1 0 011 1v19.143a.5.5 0 01-.766.424L12 18.03l-7.234 4.536A.5.5 0 014 22.143V3a1 1 0 011-1zm13 2H6v15.432l6-3.761 6 3.761V4z">
+                            </path>
+                        </svg></span>
+                    <span class="mt-1">366</span>
+                </div>
+                <div class="mt-md-3 d-flex align-items-center justify-content-center">
+
+                    <button class=" he-btn4">. . .</button>
+                </div>
+            </section>
+
+        </aside>
+
+        <!-- Main -->
+        <main class="he-main mt-3">
+            <div class="card" style="max-width: 800px; border-top-right-radius: 8px; border-top-left-radius: 8px;
+            ;">
+                <img src="../images/img-card01.jpg" class="card-img-top"
+                    style="border-top-right-radius: 8px; border-top-left-radius: 8px;" alt="...">
+                <div class="card-body">
+                    <div class="d-flex he-div-prof">
+                        <img style="margin-right: 15px; height: 45px; width: 45px; border-radius: 50%;"
+                            src="../images/img-profile-card01.jpg" alt="">
+                        <div class="d-flex flex-column">
+                            <a class="fw-bold he-profile" href="#">Digvijay Jadhav</a>
+                            <span class="text-muted" style="font-size: small; ">Posted on 7 dic.</span>
+                        </div>
+
+                    </div>
+                    <h1 class="mt-4 fw-bold">Roadmap for React JS 2022</h1>
+                    <div class="text-muted">
+                        <span class="he-btn-hash ">#react</span>
+                        <span class="he-btn-hash">#javascript</span>
+                        <span class="he-btn-hash">#beginners</span>
+                        <span class="he-btn-hash">#webdev</span>
+                    </div>
+                    <p class="mt-5 fs-5 me-4">In the previous blog I talked about why one should prefer react for
+                        Frontend. (<a href="#">https://dev.to/digvijayjadhav98/why-choose-react-for-frontend-4m23</a>)
+                        Now we'll take a look at React developer roadmap that will guide you through your journey from
+                        being a novice developer to a skilled plus experienced developer over time.
+                        <br>
+                        <br>
+                        React is one of the most popular JavaScript library for designing rich and interactive User
+                        Interfaces.
+                        <br>
+                        <br>
+                        Below is the mind-map of learning React.
+                        <br>
+                    </p>
+                    <img style="width: 90%; cursor:url(../images/img-page2.cur), zoom-in  ;"
+                        src="../images/img-page2.png" alt="">
+                    <p class="mt-5 fs-5 me-4">
+                        I remember when I started learning React, I was confused how to start and what all things I
+                        should know before building some real time projects. After reading few books, referring blogs,
+                        online courses videos and two years of experience has made me enough confident about React and
+                        what to do and what not to.
+                        <br>
+                        <br>
+                        Assuming you have basic understanding of HTML, CSS and JS
+                        <br>
+                        <br>
+                        If not then do check out the resources section below. That being said, Lets dive in.
+                        <br>
+                        <br>
+                        Lets divide the learning into three sections: Fundamentals, Advance and Ecosystem
+                        <br>
+                        <br>
+                    </p>
+                    <h4 class="fw-bold">1. Fundamentals:</h4>
+                    <ol class="fs-5">
+                        <li>Create React App</li>
+                        <li>Components : react application is made up of reusable bits of code called components and in react you can create a function component or a class component</li>
+                        <li>Functional Component</li>
+                        <li>Class Component</li>
+                        <li>JSX : the idea of writing HTML like code inside JavaScript this is what is termed as JSX and is a syntax extension to JavaScript with JSX you pretty much describe what the UI should look like</li>
+                        <li>Props and State : Props which stands for properties are just arbitrary inputs for a component which play a major part in making the component reusable. However props are read-only the component can never modify its own props this is the point in time where you start learning about state, state allows react components to change their output</li>
+                        <li>useState and useEffect Hooks</li>
+                        <li>setState and Component Lifecycle Methods</li>
+                        <li>Conditional Rendering</li>
+                        <li>Lists and Keys</li>
+                        <li>Building Simple forms</li>
+                    </ol>
+                    <a class="fs-5" href="#">✨8 React Projects Every Beginner Should Try</a>
+                    <br>
+                    <h4 class="fw-bold">2. Ecosystem :</h4>
+                    <p class="mt-5 fs-5 me-4">
+                        React is not framework, its a library which means to complete your web application you need to have a stable ecosystem which covers styling, testing, scalability, performance and application oriented dependencies(eg for language translation one can use i18Net or for Serverless application one can check firebase or AWS lambda) 
+                    </p>
+                    <ol class="fs-5">
+                        <li>State Management : Redux / Mobx / Flux / redux-toolkit</li>
+                        <li>Routing : React Router</li>
+                        <li>Styling : Styled Components, MaterialUI,Chakra,Tailwind.css, Bootstrap etc</li>
+                        <li>Forms : Formik,React hook form</li>
+                        <li>Testing : 
+                            <ol class="fs-5">
+                                <li>Cypress → End to end testing</li>
+                                <li>Jest → unit Testing</li>
+                        </ol>
+                    </li>
+                        <li>Misc:
+                            <ol class="fs-5">
+                                <li>TypeScript</li>
+                                <li>Storybook</li>
+                                <li>React i18Net</li>
+                                <li>Firebase</li>
+                                <li>Practical React libraries</li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <p class="mt-5 fs-5 me-4">
+                        After covering above topics you will be enough confident on React library and ready to build some real time projects. As you move ahead, you should also focus about performance optimization, caching, cookies, security and SEO. This leads to our last point Advance section.
+                    </p>
+                    <br>
+                    <h4 class="fw-bold"><span class="fw-normal">1.</span> Advance Topics:</h4>
+                    <br>
+                    <ol class="fs-5">
+                        <li>Isomorphic</li>
+                        <li>GraphQL</li>
+                        <li>Higher Order Components</li>
+                        <li>Render Props</li>
+                        <li>Refs</li>
+                        <li>Error boundaries</li>
+                        <li>Portals</li>
+                        <li>Http Requests : GET, PUT,POST,DELETE(fetch or axios)</li>
+                        <li>Caching, Cookies, local and session storage 10.Hooks
+                            <ol class="fs-5">
+                                <li>useContext</li>
+                                <li>useReducer</li>
+                                <li>useRef</li>
+                                <li>useMemo</li>
+                                <li>useCallBack</li>
+                                <li>Custome Hooks</li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <p class="mt-5 fs-5 me-4">
+                        Learning journey never get to an end. If you have came this far in your react learning then I will recommend you to learn Typescript and move towards Next JS as Next has removed few drawbacks of React and has so many additional functionalities. People also prefer learning React Native so along with Web you will also be able to build Android and IOS applications.
+                        <br><br>
+                        My intentions were to give an idea on how React looks like from top and what all useful things it contains. Below are some resources which I found most useful while learning ReactJS.
+                    </p>
+                    <br>
+                    <p class="mt-5 fs-5 me-4">
+                        <b>html and css :</b>
+                        Code with harry : 
+                        <a href="">https://www.youtube.com/watch?v=GeykycZ4Ixs</a>
+                    </p>
+                    
+                    <p class="mt-5 fs-5 me-4">
+                        <b>Book:</b>
+                        
+                        <a href="">https://www.amazon.in/HTML-CSS-Design-Build-Websites/dp/1118008189</a>
+                    </p>
+                    
+                    <p class="mt-5 fs-5 me-4">
+                        <b>JS required for React JS :</b>
+                        
+                        <a href="">https://www.youtube.com/watch?v=XevQlT444qg</a>
+                    </p>
+                    
+                    <p class="mt-5 fs-5 me-4">
+                        <b>Plain JS :</b>
+                        
+                        <a href=""> https://www.youtube.com/watch?v=W6NZfCO5SIk</a>
+                    </p>
+                    <p class="mt-5 fs-5 me-4">
+                        JS ES6 :
+                        
+                        <a href="">https://www.youtube.com/watch?v=NCwa_xi0Uuc</a>
+                    </p>
+                    <p class="mt-5 fs-5 me-4">
+                        <b>React JS:</b>
+                        <br>
+                        playlist :Code evolution :
+                        <a href=""> https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3</a>
+                    </p>
+                    <p class="mt-5 fs-5 me-4">
+                        ¿
+                        Mosh :
+                        <a href="">https://www.youtube.com/watch?v=Ke90Tje7VS0&t=813s</a>
+                    </p>
+                    <p class="mt-5 fs-5 me-4">
+                        *Tip: *Try making notes on Notion or some other notes making application. Try adding code snippets along with textual information. This will not only help you remember after long time but also you don't have to visit google every time, you can refer your notes.
+                    </p>
+                </div>
+        </main>
+
+
+
+        <!-- aside right -->
+
+        <aside class="he-aside-right d-lg-block d-none ">
+            <main class="he-main m-3" style="width: 345px;">
+                <div class="card" style="border-radius: 8px;">
+                    <div class="bg-black position-relative"
+                        style="height: 35px; border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                        <img class="position-absolute m-4" src="../images/img-profile-card01.jpg" alt="#"
+                            style="height: 48px; width: 48px; border-radius: 50%;">
+                    </div>
+                    <a class="he-title fs-4" href="#">Digvijay Jadhav</a>
+                    <div class="d-flex justify-content-center">
+
+                        <button class="he-btn-violet mt-4 " style="width: 100%; margin: 15px;">
+                            Follow
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-muted fw-bold mb-0">
+                            JOINED
+                        </p>
+                        <p>
+                            6 de oct. de 2021
+                        </p>
+
+                    </div>
+                </div>
+                <div class="card mt-3" style="height: 150px; border-radius: 8px;">
+                    <div class="m-3 fs-5 fw-bold">
+                        More from <span style="cursor: pointer; color: #1F2CB3;">Digvijay Jadhav</span>
+                    </div>
+                    <div class=" he-card-foot mt-3 border-top">
+                        <a id="he-choose" href="#">Why choose React for frontend?</a>
+                        <small>#react</small><small>#redux</small><small>#javascript</small><small>#webdev</small>
+                    </div>
+
+
+                </div>
+            </main>
+        </aside>
+    </section>
+
+
+
 </body>
+
 </html>

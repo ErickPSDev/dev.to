@@ -1,0 +1,254 @@
+:root {
+  --he-color-p: #323ebe;
+  --he-hover: #1f2cb3;
+  --he-hover-w: rgb(224, 224, 224);
+}
+
+.he-btn-white {
+  background: none;
+  border: none;
+  height: 40px;
+  color: var(--he-color-p);
+  font-weight: 600;
+  width: 76px;
+}
+
+.he-btn-white:hover {
+  background: var(--he-hover-w);
+  border-radius: 5px;
+}
+
+.he-btn-violet {
+  background: var(--he-color-p);
+  border: none;
+  height: 40px;
+  color: white;
+  font-weight: 600;
+  width: 127px;
+  border-radius: 5px;
+}
+
+.he-btn-violet:hover {
+  background: var(--he-hover);
+}
+
+.he-header {
+  height: 56px;
+  width: 100vw;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.he-header .he-sec-header {
+  width: 99%;
+  max-width: 1240px;
+  height: 56px;
+}
+
+.he-header .he-sec-header .he-div-left {
+  width: 100vw;
+}
+
+.he-header .he-sec-header .he-div-left .he-hamburger {
+  background: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+
+.he-header .he-sec-header .he-div-left .he-hamburger svg {
+  fill: #555555;
+}
+
+.he-header .he-sec-header .he-div-left .he-hamburger svg:hover {
+  fill: black;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input {
+  width: 100%;
+  max-width: 420px;
+  height: 56px;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input .he-input {
+  width: 100%;
+  max-width: 420px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.5px solid #b9b9b9;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input .he-input:hover {
+  border: 0.5px solid #6e6e6e;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input .he-input[type="search"]:focus {
+  outline-style: none;
+  border: 2px solid #1717f5;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input button {
+  background: none;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input button svg {
+  fill: #555555;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input button svg:hover {
+  fill: black;
+}
+
+.he-container-prin .he-aside-left .he-container-btn .he-hobtn {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  fill: #555555;
+}
+
+.he-container-prin .he-aside-left .he-container-btn .he-btn1 .he-hobtn:hover {
+  background: rgba(243, 111, 111, 0.178);
+  border-radius: 50%;
+}
+
+.he-container-prin .he-aside-left .he-container-btn .he-btn1 .he-hobtn:hover svg {
+  fill: red;
+}
+
+.he-container-prin .he-aside-left .he-container-btn .he-btn2 .he-hobtn:hover {
+  background: rgba(98, 245, 255, 0.233);
+  border-radius: 50%;
+}
+
+.he-container-prin .he-aside-left .he-container-btn .he-btn2 .he-hobtn:hover svg {
+  fill: #00ffc8;
+}
+
+.he-container-prin .he-aside-left .he-container-btn .he-btn3 .he-hobtn:hover {
+  background: rgba(98, 127, 255, 0.267);
+  border-radius: 50%;
+}
+
+.he-container-prin .he-aside-left .he-container-btn .he-btn3 .he-hobtn:hover svg {
+  fill: #2207be;
+}
+
+.he-container-prin .he-aside-left .he-container-btn .he-btn4 {
+  border: none;
+  width: 40px;
+  height: 40px;
+  background: none;
+  font-weight: 800;
+  color: #555555;
+}
+
+.he-container-prin .he-aside-left .he-container-btn .he-btn4:hover {
+  background: var(--he-hover-w);
+  border-radius: 50%;
+  color: #353535;
+}
+
+.he-container-prin .he-main .card-body {
+  margin-left: 3rem;
+}
+
+.he-container-prin .he-main .card-body .he-div-prof {
+  margin-top: 1.5rem;
+}
+
+.he-container-prin .he-main .card-body .he-div-prof .he-profile {
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.he-container-prin .he-main .card-body .he-div-prof .he-profile:hover {
+  color: var(--he-hover);
+}
+
+.he-container-prin .he-main .card-body .he-btn-hash {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.he-container-prin .he-main .card-body .he-btn-hash:hover {
+  background: var(--he-hover-w);
+  border: 0.2px solid #aaaaaa;
+  border-radius: 5px;
+}
+
+.he-container-prin .he-title {
+  margin-left: 80px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.he-container-prin #he-choose {
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.he-container-prin #he-choose:hover {
+  color: #1f2cb3;
+}
+
+.he-container-prin .he-card-foot small {
+  margin-left: 15px;
+  color: #525252;
+}
+
+@media (min-width: 768px) {
+  .he-aside-left {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 75px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .he-aside-right {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 56px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .he-container-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .he-aside-left {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 70px;
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    bottom: 0;
+    -webkit-box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+}
+/*# sourceMappingURL=he-style.css.map */
