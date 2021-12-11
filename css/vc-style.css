@@ -51,11 +51,20 @@
   padding: 15px;
 }
 
+.vc-aside-left .vc-list-a div:hover {
+  background: #e2e4f3;
+  border-radius: 5px;
+}
+
 .vc-aside-left .vc-list-a div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
 }
 
 .vc-aside-left .vc-list-a div span {
@@ -66,6 +75,10 @@
 .vc-aside-left .vc-list-a div a {
   text-decoration: none;
   color: black;
+}
+
+.vc-aside-left .vc-list-a div a:hover {
+  color: #3b49df;
 }
 
 .vc-btn-log {
@@ -116,6 +129,7 @@
   margin: 5px;
   border: 0.1px solid #e7e7e7;
   padding: 15px;
+  width: 100%;
 }
 
 .vc-aside-right .vc-img {
@@ -135,6 +149,7 @@
   min-width: 220px;
   margin: 5px;
   border: 0.1px solid #e7e7e7;
+  border-radius: 0.375rem;
 }
 
 .vc-aside-right .vc-stories .vc-stories2 {
@@ -154,26 +169,28 @@
   background: white;
 }
 
-.vc-aside-right .vc-btn-posts {
-  border: none;
-  height: 40px;
-  width: 65px;
-  color: #3b49df;
-  background: none;
-}
-
 .vc-aside-right .vc-btn21 {
   border: none;
   color: white;
   background: #3b49df;
 }
 
+.vc-aside-right .vc-btn21:hover {
+  background: #323ebe;
+}
+
 .vc-aside-right .vc-btn22 {
   border: none;
-  color: #3b49df;
-  background: white;
+  color: #504e4e;
   margin: 5px;
   border-color: solid #3b49df;
+  width: 210px;
+  border-radius: 5px;
+}
+
+.vc-aside-right .vc-btn22:hover {
+  background: #b8b6b6;
+  color: black;
 }
 
 .vc-aside-right .vc-btn-submit {
@@ -190,7 +207,7 @@
 }
 
 .vc-aside-right .vc-btn-posts:hover {
-  background: #e7e7e7;
+  background: #cfcece;
   border-radius: 5px;
 }
 /*# sourceMappingURL=vc-style.css.map */
