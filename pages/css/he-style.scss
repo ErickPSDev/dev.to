@@ -149,7 +149,7 @@ body {
 
   .he-main {
     .card-body {
-        margin-left: 3rem;
+      margin-left: 3rem;
       .he-div-prof {
         margin-top: 1.5rem;
 
@@ -163,16 +163,15 @@ body {
           color: var(--he-hover);
         }
       }
-      .he-btn-hash{
-          cursor: pointer;
-          margin-right: 10px;
-         
+      .he-btn-hash {
+        cursor: pointer;
+        margin-right: 10px;
       }
-      .he-btn-hash:hover{
+      .he-btn-hash:hover {
         background: var(--he-hover-w);
         border: 0.2px solid rgb(170, 170, 170);
-        border-radius: 5px ;
-    }
+        border-radius: 5px;
+      }
     }
   }
 

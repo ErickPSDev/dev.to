@@ -1,4 +1,10 @@
 // bottones
+
+:root {
+  --he-color-p: #323ebe;
+  --he-hover: #1f2cb3;
+  --he-hover-w: rgb(224, 224, 224);
+}
 .he-btn-#{log} {
   border: none;
   height: 40px;
@@ -219,3 +225,87 @@
       }
   
     }
+//header
+.he-header {
+  height: 56px;
+  width: 100vw;
+  background-color: white;
+  position: sticky;
+  top: 0;
+
+  .he-sec-header {
+    width: 99%;
+    max-width: 1240px;
+    height: 56px;
+    .he-div-left {
+      width: 100vw;
+
+      .he-hamburger {
+        background: none;
+        border: none;
+        width: 50px;
+        height: 50px;
+        svg {
+          fill: rgb(85, 85, 85);
+        }
+        svg:hover {
+          fill: rgb(0, 0, 0);
+        }
+      }
+      .he-div-input {
+        width: 100%;
+        max-width: 420px;
+        height: 56px;
+
+        .he-input {
+          width: 100%;
+          max-width: 420px;
+          height: 40px;
+          border-radius: 5px;
+          border: 0.5px solid rgb(185, 185, 185);
+        }
+        .he-input:hover {
+          border: 0.5px solid rgb(110, 110, 110);
+        }
+        .he-input[type="search"]:focus {
+          outline-style: none;
+          border: 2px solid rgb(23, 23, 245);
+        }
+
+        button {
+          background: none;
+          svg {
+            fill: rgb(85, 85, 85);
+          }
+          svg:hover {
+            fill: rgb(0, 0, 0);
+          }
+        }
+      }
+    }
+  }
+}
+.he-btn-white3 {
+  background: none;
+  border: none;
+  height: 40px;
+  color: var(--he-color-p);
+  font-weight: 600;
+  width: 76px;
+}
+.he-btn-white3:hover {
+  background: var(--he-hover-w);
+  border-radius: 5px;
+}
+.he-btn-violet3 {
+  background: var(--he-color-p);
+  border: none;
+  height: 40px;
+  color: white;
+  font-weight: 600;
+  width: 127px;
+  border-radius: 5px;
+}
+.he-btn-violet3:hover {
+  background: var(--he-hover);
+}

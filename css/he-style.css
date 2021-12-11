@@ -1,3 +1,9 @@
+:root {
+  --he-color-p: #323ebe;
+  --he-hover: #1f2cb3;
+  --he-hover-w: rgb(224, 224, 224);
+}
+
 .he-btn-log {
   border: none;
   height: 40px;
@@ -261,5 +267,102 @@
   .he-container-sec {
     max-width: 600px;
   }
+}
+
+.he-header {
+  height: 56px;
+  width: 100vw;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.he-header .he-sec-header {
+  width: 99%;
+  max-width: 1240px;
+  height: 56px;
+}
+
+.he-header .he-sec-header .he-div-left {
+  width: 100vw;
+}
+
+.he-header .he-sec-header .he-div-left .he-hamburger {
+  background: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+
+.he-header .he-sec-header .he-div-left .he-hamburger svg {
+  fill: #555555;
+}
+
+.he-header .he-sec-header .he-div-left .he-hamburger svg:hover {
+  fill: black;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input {
+  width: 100%;
+  max-width: 420px;
+  height: 56px;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input .he-input {
+  width: 100%;
+  max-width: 420px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.5px solid #b9b9b9;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input .he-input:hover {
+  border: 0.5px solid #6e6e6e;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input .he-input[type="search"]:focus {
+  outline-style: none;
+  border: 2px solid #1717f5;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input button {
+  background: none;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input button svg {
+  fill: #555555;
+}
+
+.he-header .he-sec-header .he-div-left .he-div-input button svg:hover {
+  fill: black;
+}
+
+.he-btn-white3 {
+  background: none;
+  border: none;
+  height: 40px;
+  color: var(--he-color-p);
+  font-weight: 600;
+  width: 76px;
+}
+
+.he-btn-white3:hover {
+  background: var(--he-hover-w);
+  border-radius: 5px;
+}
+
+.he-btn-violet3 {
+  background: var(--he-color-p);
+  border: none;
+  height: 40px;
+  color: white;
+  font-weight: 600;
+  width: 127px;
+  border-radius: 5px;
+}
+
+.he-btn-violet3:hover {
+  background: var(--he-hover);
 }
 /*# sourceMappingURL=he-style.css.map */
